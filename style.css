@@ -1,0 +1,3474 @@
+  *{
+    margin:10px;
+    padding:0px;
+    box-sizing:border-box;
+  }
+  /*---------------------------*/
+  hr{
+    height:10px;
+    background-color:#0D21FF;
+  }
+  /* ---------------------------*/
+
+  /* skyblue body background*/
+  body{
+    background-color:skyblue;
+  }
+  @media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+  }
+  
+  /* ---------------------------*/
+/* input caret color*/
+input{
+width:100%;
+  caret-color:blue;
+  
+}
+/* ---------------------------*/
+
+
+/*  change color of input some elements accent color */
+  input{
+    accent-color:black;
+    margin:40px;
+  }
+  /* ---------------------------*/
+  
+  /* full direction padding*/
+  .padding{
+   height:100px;
+   width:100px;
+   margin:40px;
+   border:2px solid black;
+   padding: 10px;
+  }
+    /* padding-left*/
+    .padding-left {
+      height: 100px;
+      width: 100px;
+      margin:40px;
+      border: 2px solid black;
+      padding-left: 10px;
+    }
+  
+    /* padding right*/
+    .padding-right {
+      height: 100px;
+      width: 100px;
+      margin:40px;
+      border: 2px solid black;
+      padding-right: 10px;
+    }
+      /* padding-top*/
+    .padding-top {
+    height: 100px;
+    width: 100px;
+    margin:40px;
+    border: 2px solid black;
+    padding-top: 10px;
+      }
+      
+  /* padding bottom*/
+    .padding-bottom {
+     height: 100px;
+     width: 100px;
+     margin:40px;
+     border: 2px solid black;
+     padding-bottom: 10px;
+   }
+      /* padding-multiple*/
+    .padding-multiple {
+      height: 150px;
+      width: 150px;
+      margin:40px;
+      border: 2px solid black;
+      font-size: 7px;
+      padding: 25px 20px 10px 15px;
+  }
+/* padding on button 20px */
+ .button-padding-20{
+    padding:20px;
+    margin:40px;
+  }
+  
+  /* padding on button of 40 px */
+  .button-padding-40{
+    padding:40px;
+    margin:40px;
+  }
+  /* pic 50 px padding */
+   .padding-50{
+   height:100px;
+   width:100px;
+   margin:40px;
+   border: 2px solid black;
+   padding: 30px;
+  }
+ /* ---------------------------*/
+
+  /*outlines*/
+  .outlines{
+    height:200px;
+    width:200px;
+    margin:40px;
+    border:5px solid red;
+    outline:10px solid yellow;
+  }
+  .outline-dotted{
+    height:200px;
+    width:200px;
+    margin:40px;
+    border:5px solid red;
+    outline:10px dotted yellow;
+ }
+  .outline-dashed {
+   height: 200px;
+   width: 200px;
+   margin:40px;
+   border: 5px solid red;
+   outline: 10px dashed yellow;
+  }
+    
+.outline-solid {
+ height: 200px;
+ width: 200px;
+ margin:40px;
+ border: 5px solid red;
+ outline: 10px solid yellow;
+      }
+      
+ .outline-double {
+   height: 200px;
+   width: 200px;
+   margin:40px;
+   border: 5px solid red;
+   outline: 10px double yellow;
+   }
+   
+ .outline-groove {
+   height: 200px;
+   width: 200px;
+   margin:40px;
+   border: 5px solid red;
+   outline: 10px groove yellow;
+  }
+  
+   .outline-ridge {
+     height: 200px;
+    width: 200px;
+    margin:40px;
+     border: 5px solid red;
+    outline: 10px ridge yellow;
+   }
+    .outline-inset {
+      height: 200px;
+      width: 200px;
+      margin:40px;
+      border: 5px solid red;
+      outline: 10px inset yellow;
+   }
+     .outline-outset {
+       height: 200px;
+       width: 200px;
+       margin:40px;
+       border: 5px solid red;
+       outline: 10px outset yellow;
+     }
+    .outline-none {
+      height: 200px;
+      width: 200px;
+      margin:40px;
+      border: 5px solid red;
+      outline: 10px none yellow;
+    }
+    .outline-hidden {
+      height: 200px;
+      width: 200px;
+      margin:40px;
+      border: 5px solid red;
+      outline: 10px hidden yellow;
+    }
+    .outline-offset{
+   height: 200px;
+      width: 200px;
+      margin:40px;
+      border: 5px solid red;
+      outline: 10px solid yellow;
+      outline-offset: 20px;
+    
+    }
+    /* text formatting*/
+    
+    .uppercase{
+      text-transform: uppercase;
+    }
+    .lowercase{
+      text-transform:lowercase;
+    }
+    .capitalize{
+      text-transform: capitalize;
+    }
+    .letter-spacings{
+      letter-spacing: 40px;
+    }
+    .letter-spacing-minus{
+      letter-spacing: -6px;
+    }
+     .word-spacings{
+      word-spacing: 40px;
+    }
+    .word-spacing-minus{
+      word-spacing: -10px;
+    }
+    .text-indent{
+      text-indent: 100px;
+    }
+    .line-height-increase{
+      line-height:50px;
+    }
+    .line-height-decrease{
+      line-height:10px;
+    }
+   div.white-space-nowrap{
+    white-space:nowrap;
+     height:100px;
+     width:100px;
+     border:3px solid black;
+      
+    }
+    
+    
+    /* text align */
+  .text-align-center{
+   text-align:center;
+    }
+  .text-align-left{
+   text-align:left;
+    }
+  .text-align-right {
+   text-align:right;
+  }
+ .text-align-justify{
+  text-align:justify;
+  }
+  
+  /* text align last prolerty*/
+     .text-align-last-center{
+       text-align-last: center;
+ 
+    }
+  .text-align-last-left{
+ text-align-last:left;
+    }
+  .text-align-last-right {
+  text-align-last:right;
+  }
+ .text-align-last-justify{
+ text-align-last:justify;
+ }
+  /* vertical alignment with div/shape/pic*/
+ .vertical-align-baseline{
+   height:30px;
+   width:30px;
+   border:2px solid black;
+   vertical-align:baseline;
+ }
+  .vertical-align-text-top{
+   height:30px;
+   width:30px;
+   border:2px solid black;
+   vertical-align:text-top;
+ }
+  .vertical-align-text-bottom {
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+    vertical-align:bottom;
+  }
+   .vertical-align-sub {
+     height: 30px;
+     width: 30px;
+     border: 2px solid black;
+     vertical-align: sub;
+   }
+    .vertical-align-super {
+      height: 30px;
+      width: 30px;
+      border: 2px solid black;
+      vertical-align: super;
+    }
+ /*unicode bidi rtl direction correct text convert to opposite text directtion*/
+ .unicode-bidi-rtl{
+  direction: rtl;
+  unicode-bidi:bidi-override;
+ }
+ 
+/* unicode bidi ltr direction change no  text */
+  .unicode-bidi-ltr{
+  direction:ltr;
+  unicode-bidi:bidi-override;
+ }
+.text-decoration-underline{
+  text-decoration-line: underline;
+}
+.text-decoration-overline{
+  text-decoration-line: overline;
+}
+.text-decoration-multiples{
+  text-decoration: 6px dashed overline yellow;
+}
+.text-decoration-multiple-each{
+  text-decoration-line: underline;
+  text-decoration-color: red;
+  text-decoration-style: double;
+  text-decoration-thickness: 1px;
+}
+.text-decoration-none{
+  text-decoration:none;
+}
+/* text decoration styel*/
+.emphasis-filled{
+  text-emphasis:filled;
+}
+.emphasis-open{
+  text-emphasis:open;
+}
+.emphasis-double-circle{
+  text-emphasis: double-circle;
+}
+.emphasis-triangle-blue {
+  text-emphasis:triangle blue;
+}
+/* text shadow property*/
+.text-shadows{
+  text-shadow: 5px 5px;
+}
+.text-shadow-color{
+  text-shadow: 2px 2px blue;
+}
+.text-shadow-blur{
+  text-shadow: 2px 2px 5px darkblue;
+}
+.text-shadow-blur-a{
+  
+  color:white;
+  text-shadow: 2px 2px 20px darkblue;
+}
+.text-shadow-blur-b{
+  text-shadow: 0px 0px 5px red;
+}
+  .text-shadow-blur-multiple-color {
+    text-shadow: 0px 0px 5px red,0px 0px 10px yellow;
+  }
+  #font-size-a{
+    font-size:30px;
+  }
+  #font-size-b{
+    font-size:40px;
+  }
+  /* 40px / 16 = 2.5em*/
+  #font-size-c{
+    font-size:2.5em;
+  }
+  /* vw is use to responsive webside that change your property according to your window size*/
+  #font-size-d{
+    font-size:10vw;
+  }
+  
+  /* these are some types of fo t family and css font style*/
+  #font-family-serif{
+    font-family:serif;
+  }
+    #font-family-sans-serif {
+    font-family: sans-serif;
+    }
+  #font-family-monospace {
+  font-family:monospace;
+      }
+  #font-family-cursive {
+          font-family:cursive;
+          text-shadow: 0px 0px 2px white;
+        }
+ #font-family-fantasy {
+  font-family:fantasy;
+          }
+  #font-family-mix{
+ font-family:"Courier New", Courier, monospace;
+  }
+  #google-font-family{
+    font-family:'Fuggles', cursive;
+  }
+  #google-font-family-another{
+   font-family: 'Pixelify Sans', cursive;
+   text-shadow:2px 2px 5px black;
+  }
+  #font-multiple{
+    
+  
+  font: italic small-caps bold 12px/30px Georgia, serif;
+}
+   
+          /* font style*/
+ .font-style-normal{
+ font-style:normal;
+ }
+.font-style-italic{
+ font-style:italic;
+ }
+.font-style-oblique{
+  font-style:oblique;
+  }
+  #font-weight-normal{
+    font-weight: normal;
+  }
+  #font-weight-bold{
+    font-weight:bold;
+  }
+  .font-varient{
+    font-variant: small-caps;
+  }
+
+  
+  
+  
+  /*###### link FORMATTING ##$$#*/
+  .link-formatting:link{
+color:red;
+text-decoration:none;
+  }
+  .link-formatting:hover{
+    color:black;
+    text-decoration: 2px underline overline double red;
+    text-transform: uppercase;
+  }
+  .link-formatting:active {
+    color: blue;
+    background-color:white;
+   
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+  }
+.link-formatting:visited{
+  color:white;
+  }
+  
+  /* another link formatting*/
+  .another-link-formatting:link,     .another-link-formatting:visited{
+    color:blue;
+    text-decoration:none;
+  }
+
+  
+  .another-link-formatting:hover,.another-link-formatting:active{
+    text-decoration:underline overline;
+    font-weight:bold;
+    border:2px inset green;
+    color:black;
+    background-color:green;
+  }
+  /* anothers 1*/
+  a.one:link{ color:blue; }
+  a.one:visited{color:blue; }
+  a.one:hover{font-size: 25px;}
+  
+  /* another 2*/
+    a.two:link{ color:blue; }
+  a.two:visited{color:blue; }
+  a.two:hover{background-color:green;}
+  /*another 3*/
+  a.three:link{color:white;}
+  a.three:visited{font-family: cursive;}
+  a.three:hover{
+    font-family:monospace;
+  }
+  a.four:link{color:blue;}
+  a.four:visited{background-color:red;}
+  a.four:hover{text-shadow:2px 2px 10px black;, 2px 2px 20px blue; letter-spacing:10px;}
+  
+  a.five:link{ color:blue;}
+  a.five:visited{color:blue;}
+  a.five:hover{color:red; background-color:white;
+  font-weight: bold;
+  }
+/* anchor button on hover*/
+a.filleds:link{color:white;
+  background-color: green;
+  border: 2px solid black;
+  padding:10px;
+  user-select: none;
+}
+a.filleds:visited{color:white;
+  background-color: green;
+  border: 2px solid black;
+  padding:10px;
+  user-select: none;}
+a.filleds:hover{color:white;
+background-color: green;
+border: 2px solid black;
+padding:10px;
+user-select: none;
+}
+/* list style type */
+/* unrodered list  disk, square, circle*/
+ul.circle{
+  list-style-type:circle;
+  margin:20px;
+}
+ul.square{
+  list-style-type:square;
+  margin:20px;
+}
+ul.disk {
+  list-style-type:disk;
+  margin: 20px;
+}
+/* we can also add gif /image*/
+ul.gif {
+  margin:200px;
+ 
+  list-style-image:url("https://i.postimg.cc/P5vx8QRN/ei-1695917002735-removebg-preview.png")
+ 
+}
+
+ol.roman{
+  margin: 20px;
+  list-style-type:upper-roman;
+}
+ol.lower-alpha{
+  margin:20px;
+  list-style-type: lower-alpha;
+}
+ul.a {list-style-type: circle;}
+ul.b {list-style-type: disc;}
+ul.c {list-style-type: square;}
+
+ol.d {list-style-type: armenian;}
+ol.e {list-style-type: cjk-ideographic;}
+ol.f {list-style-type: decimal;}
+ol.g {list-style-type: decimal-leading-zero;}
+ol.h {list-style-type: georgian;}
+ol.i {list-style-type: hebrew;}
+ol.j {list-style-type: hiragana;}
+ol.k {list-style-type: hiragana-iroha;}
+ol.l {list-style-type: katakana;}
+ol.m {list-style-type: katakana-iroha;}
+ol.n {list-style-type: lower-alpha;}
+ol.o {list-style-type: lower-greek;}
+ol.p {list-style-type: lower-latin;}
+ol.q {list-style-type: lower-roman;}
+ol.r {list-style-type: upper-alpha;}
+ol.s {list-style-type: upper-latin;}
+ol.t {list-style-type: upper-roman;}
+ol.u {list-style-type: none;}
+ol.v {list-style-type: inherit;}
+/* list style position (inside/outset)*/
+ol#inside{
+  margin:50px;
+  list-style-type:upper-roman;
+  border:2px solid black;
+  list-style-position: inside;
+  background-color:orange;
+  padding:30px;
+  
+}
+ol#outside{
+  margin:50px;
+  list-style-type:upper-roman;
+  list-style-position:outside;
+  border:2px solid black;
+  background-color: orange;
+  padding:30px;
+}
+li.li{
+  border:2px solid black;
+  padding:20px; background-color:pink;
+  }
+/* table properties*/
+#table{
+width:100%;
+ border:2px solid black;
+  padding:20px;
+  
+}
+.first-table{
+ background-color:orange;
+  border:2px solid black;
+  padding:10px;
+  font-weight: bold;
+  height:100px;
+  text-align: center;
+  row-gap: 20px;
+ 
+}
+.first-table-body{
+  background-color:yellow;
+  border:2px solid black;
+  padding:5px;
+  font-family:monospace;
+  text-align: center;
+  
+}
+/* second table styling*/
+.second-table{
+ background-color:orange;
+  border:2px solid black;
+  padding:10px;
+  font-weight: bold;
+  height:100px;
+  text-align: center;
+}
+.second-table-body{
+
+  text-align:center;
+  border:2px solid black;
+  
+  padding:5px;
+  font-family:monospace;
+}
+
+
+/* border collapse*/
+.collapse{
+  
+width:100%;
+  border:2px solid black;
+  padding:20px;
+  border-collapse:collapse;
+  text-align: center;
+  
+}
+.collapse-head{
+  height:50px;
+  vertical-align: bottom;
+  border: 2px solid black;
+  font-size: 40px;
+  background-color:Pink;
+  color:brown;
+}
+.collapse-body{
+  border:2px solid black;
+}
+/* border collapse and border spacing*/
+.border-spacing{
+border-spacing:30px;
+border-top-left-radius: 25px;
+border-bottom-right-radius:25px;
+border:3px solid black;
+  }
+  
+.spacing-head{
+  background-color:red;
+  border:2px solid black;
+  
+}
+.spacing-body{
+  text-align: center;
+  border:2px solid black;
+}
+/* every table hover */
+
+tr:hover{
+  user-select:none;
+  color:white;
+  font-weight:bold;
+  background-color:red;
+ }
+ /* child table*/
+ .child-head{
+   border-bottom: 10px solid black;
+   text-align:center;
+   background-color:darkgreen;
+ }
+ .child-body{
+   text-align: center;
+   
+ }
+ .tr:nth-child(odd){
+   background-color:orange;
+ }
+/* last table formatting*/
+.last-table{
+  border-collapse: collapse;
+}
+.last-head{
+  border:2px solid black;
+  width:50%;
+}
+.last-body,.last-head{
+  text-align:center;
+  border-bottom:2px solid black;
+ 
+}
+
+.last-tr:nth-child(even){
+  background-color:purple;
+  color:white;
+}
+
+/* scroll table overflow x auto direction*/
+.div-overflow{
+  overflow-x: auto;
+  z-index:1;
+}
+
+.scroll-table{
+  border:2px solid black;
+  width:100%;
+border-top-left-radius: 50px;
+border-bottom-right-radius:50px;
+  
+}
+.scroll-head{
+  background-color: plum;
+  font-weight: bold;
+  border: 2px groove black;
+}
+.scroll-head,.scroll-body{
+  padding:10px;
+  text-align: center;
+}
+.scroll-body:nth-child(even){
+  background-color: grey;
+}
+.scroll-tr:nth-child(even){
+  background-color: coral;
+}
+/* set the position of a table caption*/
+.scroll-caption{
+  caption-side:bottom;
+  font-weight: bold;
+  font-size:20px;
+}
+/* end table section*/
+#example1 {
+  border: 2px solid red;
+  padding: 10px;
+  border-top-right-radius: 25px;
+}
+
+#example2 {
+  border: 2px solid red;
+  padding: 10px;
+  border-top-right-radius: 50px 20px;
+}
+/*multiple border style*/
+.border-style{
+  border:5px groove pink;
+  border-top: 5px dotted black;
+  border-left: 5px double green;
+  border-right:5px dashed yellow;
+}
+/* position property start here*/
+
+
+div.static {
+  position:static;
+  left:40px;
+  border: 3px solid #73AD21;
+}
+span.relative {
+  position: relative;
+  left:30px;
+  font-size: 10px;
+  border: 3px solid #73AD21;
+}
+/*this is fixed position style*/
+div.fixed {
+  position: fixed;
+  bottom: 0px;
+  left:10px;
+  width: 200px;
+  border: 3px solid #73AD21;
+}
+/* absolute position*/
+ div.relative-absolute {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border: 3px solid #73AD21;
+} 
+
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right:0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+/* this is sticky position*/
+div.sticky {
+  
+  position:sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
+/* image text position*/
+.img{
+  opacity:0.2;
+  height:auto;
+  width:100%;
+}
+.image-text{
+  position:relative;
+  
+}
+.center{
+ position: absolute;
+ top:50%;
+ width:100%;
+ text-align:center;
+ font-size: 28px;
+
+}
+.top-left{
+  position:absolute;
+ width:100%;
+  top:5%;
+  left:10%;
+  font-size:28px;
+}
+.top-right{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 28px;
+}
+.bottom-left{
+position: absolute;
+  bottom:15px;
+  left: 16px;
+  font-size: 28px;
+}
+.bottom-right{
+  position: absolute;
+  bottom:15px;
+  right:16px;
+  font-size: 28px;
+}
+/* position clip help to crop the photo*/
+.position-clip-path{
+  position: absolute;
+  clip:rect(30px,80px,112px,20px);
+}
+.clip-path-one{
+  position: absolute ;
+  clip-path:circle(40%);
+}
+.clip-path-two{
+  position: absolute ;
+  clip-path:circle(50%);
+}
+.clip-path-three{
+  position;absolute;
+clip-path:polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.clip-path-four{
+  position: absolute ;
+clip-path: ellipse(25% 40% at 50% 50%);
+}
+.clip-path-five{
+  position: absolute ;
+clip-path: ellipse(25% 25% at 50% 50%);}
+.clip-path-six{
+  position: absolute ;
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  
+}
+.clip-path-seven{
+  position: absolute ;}
+ #ankit{
+   font-size: 120px;
+   font-weight:bold;
+   background-image:url("https://i.postimg.cc/wTS6sDnr/images-1.jpg");
+   background-size: cover;
+   background-position: center;
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+   font-family:sans-serif;
+ }
+  
+  
+/* this is column count property*/
+.column-count{
+  column-count:4;
+  column-gap:6px;
+  column-rule: 5px dashed red;
+}
+/*
+var() function
+this is var value we can create any var value and use it for future need.we have to your variable in the :root function as there us --blue-color:blue;
+Note: The variable name must begin with two dashes (--) and it is case sensitive!*/
+
+
+
+
+.flex-container-nowrap {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container-nowrap>div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+
+
+
+
+/* flex wrap 2 nd property*/
+.flex-container-wrap {
+  display: flex;
+  flex-wrap:wrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container-wrap > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+/* flex wrap reverse*/
+.flex-container-wrap-reverse {
+  display: flex;
+  flex-wrap:wrap-reverse;
+  background-color: DodgerBlue;
+}
+
+.flex-container-wrap-reverse > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+
+/* this is flex direction column*/
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+  background-color: DodgerBlue;
+}
+
+.flex-container-column > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+/* flex direction column reverse*/
+
+.flex-container-column-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: DodgerBlue;
+}
+
+.flex-container-column-reverse > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* flex direction row */
+.flex-container-direction-row {
+  display: flex;
+  flex-direction: row;
+  background-color: DodgerBlue;
+}
+
+.flex-container-direction-row>div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+/* flex directionrow reverse property*/
+.flex-container-direction-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: DodgerBlue;
+}
+
+.flex-container-direction-row-reverse >div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* flex flow . this is the mix of direction and action as row wrap*/
+.flex-container-flex-flow{
+  display: flex;
+  flex-flow: row wrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container-flex-flow >div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* flex justify content center*/
+.flex-container-justify {
+  display: flex;
+  justify-content: center;
+  background-color: DodgerBlue;
+}
+
+.flex-container-justify > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* disply flex justify-content:flex:start;*/
+.flex-container-justify-start {
+display: flex;
+justify-content: flex-start;
+background-color: DodgerBlue;
+}
+
+.flex-container-justify-start> div {
+background-color: #f1f1f1;
+width: 100px;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+font-size: 30px;
+}
+/* disply flex justify-content:flex:end;*/
+.flex-container-justify-end {
+display: flex;
+justify-content: flex-end;
+background-color: DodgerBlue;
+}
+
+.flex-container-justify-end> div {
+background-color: #f1f1f1;
+width: 100px;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+font-size: 30px;
+}
+/* disply flex justify-content:space-around;*/
+.flex-container-justify-space-around {
+display: flex;
+justify-content:space-around;
+background-color: DodgerBlue;
+}
+
+.flex-container-justify-space-around > div {
+background-color: #f1f1f1;
+width: 100px;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+font-size: 30px;
+}
+/* disply flex justify-content:space-between*/
+.flex-container-space-between {
+display: flex;
+justify-content:space-between;
+background-color: DodgerBlue;
+}
+
+.flex-container-space-between> div {
+background-color: #f1f1f1;
+width: 100px;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+font-size: 30px;
+}
+/* align items property*/
+.flex-container-align-items {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  background-color: DodgerBlue;
+}
+
+.flex-container-align-items > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* align items property flex-start*/
+.flex-container-align-items-flex-start {
+  display: flex;
+  height: 200px;
+  align-items:flex-start;
+  background-color: DodgerBlue;
+}
+
+.flex-container-align-items-flex-start > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* align items propert flex-endy*/
+.flex-container-align-items-flex-end {
+  display: flex;
+  height: 200px;
+  align-items:flex-end;
+  background-color: DodgerBlue;
+}
+.flex-container-align-items-flex-end>div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* align -items stretch*/
+.flex-container-align-items-stretch {
+  display: flex;
+  height: 200px;
+  align-items: stretch;
+  background-color: DodgerBlue;
+}
+
+.flex-container-align-items-stretch > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/*align-items: baseline*/
+.flex-container-align-items-baseline {
+  display: flex;
+  height: 200px;
+  align-items: baseline;
+  background-color: DodgerBlue;
+}
+
+.flex-container-align-items-baseline > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* align content space between top and bottom*/
+.flex-container-align-content-space-between {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-between;
+  overflow: scroll;
+  background-color: DodgerBlue;
+}
+
+.flex-container-align-content-space-between > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* align content space around top and bottom*/
+.flex-container-align-content-space-around {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-around;
+  overflow: scroll;
+  background-color: DodgerBlue;
+}
+
+.flex-container-align-content-space-around > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* aligncontent stretch*/
+.flex-container-align-content-stretch{
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content:stretch;
+  overflow: scroll;
+  background-color: DodgerBlue;
+}
+
+.flex-container-align-content-stretch > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* align content center*/
+.flex-container-align-content-center {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: center;
+  overflow: scroll;  
+  background-color: DodgerBlue;
+}
+
+.flex-container-align-content-center > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* align content flex start*/
+.flex-container-align-content-flex-start {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  overflow: scroll;  
+  background-color: DodgerBlue;
+}
+
+.flex-container-align-content-flex-start > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* align content flex end*/
+.flex-container-align-content-flex-end {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  overflow: scroll;  
+  background-color: DodgerBlue;
+}
+
+.flex-container-align-content-flex-end > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* justify content align-items center*/
+.flex-container-justify-content-align-items-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: DodgerBlue;
+}
+
+.flex-container-justify-content-align-items-center > div {
+  background-color: #f1f1f1;
+  color: white;
+  width: 100px;
+  height: 100px;
+}
+/* flex itmes order property*/
+.flex-container-order {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+}
+
+.flex-container-order>div {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* flex grow property*/
+.flex-container-flex-grow {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+}
+
+.flex-container-flex-grow > div {
+  background-color: DodgerBlue;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* shrink stop*/
+.flex-container-not-shrink {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+}
+
+.flex-container-not-shrink>div {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* flex basis property*/
+.flex-container-flex-basis {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+}
+
+.flex-container-flex-basis > div {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* flex basis 00200*/
+.flex-container-flex-basis-00200 {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+}
+
+.flex-container-flex-basis-00200>div {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* align-self*/
+.flex-container-align-self{
+  display: flex;
+  height: 200px;
+  background-color: #f1f1f1;
+}
+
+.flex-container-align-self> div {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* align-self start and  end */
+.flex-container-align-self-start-end {
+  display: flex;
+  height: 200px;
+  background-color: #f1f1f1;
+}
+
+.flex-container-align-self-start-end > div {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+#auto-img{
+  width:100%;
+  height:auto;
+}
+#auto-img-max-width{
+  width:100%;
+  height:auto;
+}
+/* stretch image height*/
+#stretch-image-contain {
+  width: 100%;
+  height: 1000px;
+  background-image: url('https://i.postimg.cc/RFspNdG3/HD-wallpaper-ganapathi-line-art-bhagwa-colour-ganesh-jai-hanuman-lord-ganesha-lord-shiva-orange-shre.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid red;
+}
+#stretch-img-height {
+  width: 100%;
+  height: 5000px;
+  background-image: url('https://i.postimg.cc/RFspNdG3/HD-wallpaper-ganapathi-line-art-bhagwa-colour-ganesh-jai-hanuman-lord-ganesha-lord-shiva-orange-shre.jpg');
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  border: 1px solid red;
+}
+#stretch-img-cover {
+  width: 100%;
+  height: 1000px;
+  background-image: url('https://i.postimg.cc/RFspNdG3/HD-wallpaper-ganapathi-line-art-bhagwa-colour-ganesh-jai-hanuman-lord-ganesha-lord-shiva-orange-shre.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  border: 1px solid red;
+}
+/* image-repeat*/
+#image-repeat-x{
+height:700px;  
+width:700px;
+border:2px solid black;
+background-image: url("https://i.postimg.cc/N0KxH7YR/5a1d5ff27c6364-0454998815118745465095.png");
+background-repeat:repeat-x;
+background-size:50px;
+}
+/* image-repeat-y*/
+#image-repeat-y{
+height:700px;  
+width:700px;
+border:2px solid black;
+background-image: url("https://i.postimg.cc/N0KxH7YR/5a1d5ff27c6364-0454998815118745465095.png");
+background-repeat:repeat-y;
+background-size:50px;
+}
+/* background position and background attachment*/
+#background-position-attachment{
+  height:900px;
+  width:900px;
+  border:2px solid black;
+background-image: url("https://i.postimg.cc/N0KxH7YR/5a1d5ff27c6364-0454998815118745465095.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+ 
+  background-attachment: fixed;
+  background-size:500px;
+}
+#background-position-attachment-scroll{
+  height:900px;
+  width:900px;
+  border:2px solid black;
+background-image: url("https://i.postimg.cc/N0KxH7YR/5a1d5ff27c6364-0454998815118745465095.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+ 
+  background-attachment: scroll;
+  background-size:500px;
+  font-size: 50px;
+  
+}
+
+/* only png images */
+#first-shadow{
+  box-shadow:10px 10px 20px black;
+}
+#second-shadow{
+  filter:drop-shadow( 10px 10px 20px);
+  };
+  
+/* css colors */
+#background-clip-border-box{
+  border: 10px dotted black;
+  padding: 15px;
+  background-color: lightblue;
+  background-clip: border-box;  
+}
+
+#background-clip-padding-box {
+  border: 10px dotted black;
+  padding: 15px;
+  background-color: lightblue;
+  background-clip: padding-box;
+}
+
+#background-clip-content-box {
+  border: 10px dotted black;
+  padding: 15px;
+  background-color: lightblue;
+  background-clip: content-box;
+}
+/* background color style*/
+#grad1 {
+  height: 200px;
+  width: 200px;
+  background-color: red; 
+  background-image: conic-gradient(red, yellow, green);
+}
+#gradient-5-color{
+ height: 200px;
+  width: 200px;
+  background-color: red; 
+  background-image: conic-gradient(red, yellow, green,blue,black); 
+}
+#gradient-angle {
+  height: 200px;
+  width: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+}
+#gradient-from-angle {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  background-image: conic-gradient(from 90deg, red, yellow, green);
+  border-radius: 50%;
+}
+#gradient-at {
+  height: 200px;
+  width: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: conic-gradient(at 70% 20%, red, yellow, green);
+  border-radius: 50%;
+}
+#gradient-solid {
+  height: 200px;
+  width: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg);
+  border-radius: 50%;
+}
+/* conic  gradient end here*/
+
+/* linear gradient start */
+#gradient-linear {
+  height: 200px;
+  background-image: linear-gradient(red, yellow, blue);
+}
+#gradient-linear-right {
+  height: 200px;
+  background-image: linear-gradient(to right, red, blue);
+}
+#linear-gradient-to-bottom-right{
+height: 200px;
+  background-image: linear-gradient(to bottom right, red, blue);
+}
+/* linear gradient angle property */
+#linear-angle1 {
+  height: 100px;
+  background-image: linear-gradient(0deg, red, blue);
+}
+
+#linear-angle2 {
+  height: 100px;
+  background-image: linear-gradient(90deg, red, blue);
+}
+
+#linear-angle3 {
+  height: 100px;
+  background-image: linear-gradient(180deg, red, blue);
+}
+
+#linear-angle4 {
+  height: 100px;
+  background-image: linear-gradient(-90deg, red, blue);
+}
+#rainbow {
+  height: 55px;
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+#transparent-linear {
+  height: 200px;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+/* redial gradient*/
+/*----;;;;;;;----------;++++++--*/
+#radial-gradient {
+  height: 150px;
+  width: 200px;
+  background-image: radial-gradient(red, green, blue);
+}
+#radial-gradient-percentage {
+  height: 150px;
+  width: 200px;
+  background-image: radial-gradient(red 5%, green 15%, blue 60%);
+}
+#radial-gradient-ellips {
+  height: 150px;
+  width: 200px;
+  background-image: radial-gradient(red, yellow, green);
+}
+
+#radial-gradient-circle{
+  height: 150px;
+  width: 200px;
+  background-image: radial-gradient(circle, red, yellow, green);
+}
+#linear-another1 {
+  height: 150px;
+  width: 150px;
+  background-image: radial-gradient(closest-side at 60% 55%,blue,green,yellow,black);
+}
+
+#linear-another2 {
+  height: 150px;
+  width: 150px;
+  background-image: radial-gradient(farthest-side at 60% 55%,blue,green,yellow,black);
+}
+
+#linear-another3 {
+  height: 150px;
+  width: 150px;
+  background-image: radial-gradient(closest-corner at 60% 55%,blue,green,yellow,black);
+}
+
+#linear-another4 {
+  height: 150px;
+  width: 150px;
+  background-image: radial-gradient(farthest-corner at 60% 55%,blue,green,yellow,black);
+}
+#conic-gradient-repeat {
+  height: 200px;
+  width: 200px;
+  background-color: red; 
+  background-image: repeating-conic-gradient(red 10%, yellow 20%);
+  border-radius: 50%;
+}
+#conic-gradient-repeat-angle {
+  height: 200px;
+  width: 200px;
+  background-color: red; 
+  background-image: repeating-conic-gradient(red 0deg 30deg, yellow 30deg 60deg, blue 60deg 90deg);
+  border-radius: 50%;
+}
+#repeat-linear-gradient {
+  height: 200px;
+  background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+}
+#repeat-linear-gradient-angle{
+  height: 200px;
+  background-image: repeating-linear-gradient(45deg,red,blue 7%,green 10%);
+}
+
+#repeat-linear-gradient-angle2 {
+  height: 200px;
+  background-image: repeating-linear-gradient(190deg,red,blue 7%,green 10%);
+}
+
+#repeat-linear-gradient-angle3 {
+  height: 200px;
+  background-image: repeating-linear-gradient(90deg,red,blue 7%,green 10%);
+}
+#radial-repeat {
+  height: 200px;
+  background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
+/*disply*/
+.inline{
+  display: inline;
+  
+}
+.block{
+  display: block;}
+  /* disply inline ,block,inline block*/
+  span.a {
+  display: inline; /* the default for span */
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;  
+  background-color: yellow; 
+}
+
+span.b {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;    
+  background-color: yellow; 
+}
+span.c {
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;    
+  background-color: yellow; 
+}
+/* another relative*/
+
+
+.hidden{
+  display:none;
+}
+.visibility{
+  visibility: hidden;
+}
+.leaf{
+  height:200px;
+  width:200px;
+  border:2px solid black;
+  border-radius: 100% 0% 100% 0% / 100% 0% 100% 0% ;
+}
+.first-z-index{
+  height:300px;
+  width:300px;
+  border:2px solid black;
+  background-color:red;
+  position:relative;
+  left:50px;
+  top:250px;
+}
+.second-z-index{
+  height:300px;
+  width:300px;
+  border:2px solid black;
+  background-color:blue;
+  z-index:-1;
+  position:relative;
+  top:0px;
+  left:0px;
+}
+/* overflow visible*/
+#overflow-visible{
+  background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid;
+  overflow: visible;
+}
+/* overflow hidden*/
+#overflow-hidden {
+  background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+/* overflow -scroll*/
+#overflow-scroll {
+  background-color: coral;
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  overflow: scroll;
+  
+}
+/* overflow auto*/
+#overflow-auto {
+  background-color: coral;
+  width: 300px;
+  height: 495px;
+  border: 1px solid black;
+  overflow: auto;
+}
+#overflow-x-y{
+  background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid black;
+  overflow-x:hidden;
+  overflow-y:scroll;
+}
+/* overflow wrap*/
+.overflow-wrap-normal{
+  width:300px;
+  height:auto;
+  border:2px solid black;
+  overflow-wrap:normal;
+}
+.overflow-wrap-break-word{
+  width:300px;
+  height:auto;
+  border:2px solid black;
+  overflow-wrap:break-word;
+}
+.overflow-wrap-anywhere {
+  width: 300px;
+  height: auto;
+  border: 2px solid black;
+  overflow-wrap:anywhere;
+}
+/* float property*/
+/* left-float*/
+ #left-float{
+   float: left;
+   border:2px solid red;
+ }
+ /* right float*/
+ 
+  #right-float{
+   float: right;
+   border:2px solid red;
+ }
+ /* float: none*/
+ #none-float{
+   float: none;
+ }
+ /* float clear property*/
+ .clear-none1 {
+  float: left;
+  padding: 10px;
+  border: 3px solid #73AD21;
+}
+
+ .float-clear-none2 {
+  padding: 10px;
+  border: 3px solid red;
+}
+
+ .float-clear3{
+  float: left;
+  padding: 10px;  
+  border: 3px solid #73AD21;
+}
+
+ .float-clear4{
+  padding: 10px;
+  border: 3px solid red;
+  clear: left;
+}
+/* clearfix property */
+#clearfix-none{
+  height:200px;
+  width:900px;
+  border:2px solid black;
+  
+  
+}
+.clearfix-images{
+  float:right;
+}
+#clearfix-auto{
+  height:200px;
+  width:900px;
+  border:2px solid black;
+  overflow:auto;
+}
+.after{
+  color:blue;
+}
+.after::after{
+  content:"ANKIT KOSTA";
+  color:red;
+  font-family:cursive;
+  
+}
+/* 2d transform*/
+/* transform-trabslate*/
+#transform-translate {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: translate(50px,100px);
+}
+#rotate {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+#transform-rotate {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: rotate(20deg);
+}
+#rotate2 {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+#transform-rotate-minus {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: rotate(-20deg);
+}
+/* rotate x y z*/
+.rotate-x {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.rotate-x-transform {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: rotateX(150deg);
+}
+.rotate-y {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.rotate-y-transform {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: rotateY(150deg);
+}
+.rotate-z {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.rotate-z-transform {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: rotateZ(90deg);
+}
+/* transform scale*/
+.transform-scale {
+  margin: 150px;
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: scale(2,3);
+}
+/* scalex */
+.scale-x{
+  margin: 150px;
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: scaleX(5);
+}
+
+/*scale y */
+.scale-Y{
+    margin: 150px;
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: scaleY(5);
+}
+/* screw transform*/
+.screw {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+.screw-transform {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: skew(30deg,40deg);
+}
+/* skewx transform*/
+.screw-x{
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.screw-x-transform {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: skewX(20deg);
+}
+/* skewx transform minus*//
+.screw-x{
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.screw-x-transform-minus{
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: skewX(-20deg);
+}
+/* skewx transform minus*/
+.screw-y{
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.screw-y-transform{
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: skewY(20deg);
+}
+/* skewx transform minus*/
+ .screw-y {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.screw-y-transform-minus {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: skewY(-20deg);
+}
+/* metrix transform*/
+
+.metrix{
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.metrix-transform {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  
+  transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+.metrix-transform2 {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  
+  transform: matrix(1, 0, 0.5, 1, 150, 0);
+}
+#preserve {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  margin: 100px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#preserve-transform {
+  padding: 60px;
+  position: absolute;
+  border: 1px solid black;
+  background-color: red;
+  transform: rotateY(60deg);
+  transform-style: preserve-3d;
+}
+
+.preserve-transform2 {
+  padding: 30px;
+  position: absolute;
+  border: 1px solid black;
+  background-color:yellow;
+  transform: rotateY(-60deg);
+
+}
+/* perspective*/
+#perspective {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  margin-left: 60px;
+  border: 1px solid blue;
+  perspective: 100px;
+}
+
+#perspective2, #perspective4 {
+  padding: 50px;
+  position: absolute;
+  border: 1px solid black;
+  background: rgba(100,100,100,0.5); 
+  transform-style: preserve-3d;
+  transform: rotateX(45deg);
+}
+
+#perspective3 {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  margin-left: 60px;
+  border: 1px solid blue;
+  perspective: none;
+}
+/* perspective cube*/
+.ex1 {
+  perspective: 800px;
+}
+
+.ex2 {
+  perspective: 150px;
+}
+
+.cube {
+  font-size: 4em;
+  width: 2em;
+  margin: 1.5em auto;
+  transform-style: preserve-3d;
+  transform: rotateX(-45deg) rotateY(30deg);
+}
+.side {
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  background: rgba(100,100,100,0.5);
+  border: 1px solid red;
+  text-align: center;
+  line-height: 2em;
+}
+
+.front {transform: translateZ(1em);}
+.top {transform: rotateX(90deg) translateZ(1em);}
+.right {transform: rotateY(90deg) translateZ(1em);}
+.left {transform: rotateY(-90deg) translateZ(1em);}
+.bottom {transform: rotateX(-90deg) translateZ(1em);}
+.back {transform: rotateY(-180deg) translateZ(1em);}
+/* end persective cube*/
+/* backface*/
+  #backface{
+  position: relative;
+  height: 60px;
+  width: 60px;
+  background-color: red;
+  transform: rotateY(180deg);
+}
+
+#backface1 {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  background-color: red;
+  transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+#backface2 {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  background-color: red;
+  transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: visible;
+}
+/* backgace end here*/
+/* transiTion start here */
+#transition{
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+
+#transition:hover {
+  width: 300px;
+}
+/* transition height width */
+#transition-h-w{
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s, height 4s;
+}
+
+#transition-h-w:hover {
+  width: 300px;
+  height: 300px;
+}
+/* transition timing function*/
+
+#linear {transition-timing-function: linear;
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+#ease {transition-timing-function: ease;
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+#ease-in {transition-timing-function: ease-in;
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+#ease-out {transition-timing-function: ease-out;
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+#ease-in-out {transition-timing-function: ease-in-out;
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+#step-5{transition-timing-function:step(5,start);
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+
+#ease:hover,#linear:hover,#ease-in:hover,#ease-out:hover,#ease-in-out:hover,#step-5:hover {
+  width: 300px;
+}
+/* animation delay*/
+#delay {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 3s;
+  transition-delay: 1s;
+}
+
+#delay:hover {
+  width: 300px;
+}
+#transition-transform {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+#transition-transform:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
+/* another*/
+#every-transition-property {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
+
+#every-transition-property:hover {
+  width: 300px;
+}
+/* mix Transition*/
+#shorthand-transition {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s linear 1s;
+}
+
+#shorthand-transition:hover {
+  width: 300px;
+}
+/* Transition end here */
+/* -----------+-----------+-+-++*/
+/*animation start here */
+#animation {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s; 
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+/* keyframes animatiion in %*/
+#animation-percent{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example2 {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+/* another movement animation*/
+
+#movement{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example3;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: -5s;
+}
+
+@keyframes example3 {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+/* animation direction */
+/* animation direction- reverse*/
+
+
+#animation-reverse{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example4;
+  animation-duration: 4s;
+  animation-direction: reverse;
+  animation-iteration-count:10;
+}
+
+@keyframes example4 {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+/* animation alternate*/
+#animation-alternate{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example5;
+  animation-duration: 4s;
+  animation-direction:alternate;
+  animation-iteration-count:10;
+}
+
+@keyframes example5 {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+/* animation alternate reverse*/
+/* animation alternate*/
+#animation-alternate-reverse{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example6;
+  animation-duration: 4s;
+  animation-direction:alternate-reverse;
+  animation-iteration-count:10;
+}
+
+@keyframes example6 {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+/* animation timing function*/
+
+
+#animation-linear{
+  
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-timing-function: linear;
+}
+#animation-ease {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-timing-function: ease;
+}
+#animation-ease-in {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  font-weight: bold;
+  position: relative;
+  
+  animation: mymove 5s infinite;
+  animation-timing-function: ease-in;
+}
+#animation-ease-out {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-timing-function: ease-out;
+}
+#animation-ease-in-out {
+  
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+/*fill mode animation*/
+#animation-fill-mode {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation-name: example7;
+  animation-duration: 3s;
+  animation-iteration-count: 5;
+  animation-fill-mode: forwards;
+}
+
+@keyframes example7 {
+  from {top: 0px;}
+  to {top: 200px; background-color: blue;}
+}
+/* every each one by one animation*/
+#every-animation{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example8;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example8 {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+/* shorthand property*/
+#shorthand-animation {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation: myfirst 5s linear 2s infinite alternate;
+}
+
+@keyframes myfirst {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+/* animation play state:pause;-*/
+#animation-play-state {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove11 5s;
+  animation-play-state: paused;/*running*/
+}
+
+@keyframes mymove11 {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+/* zooom in out */
+.zoom-in-out{
+  height:450px;
+  width:450px;
+  border:2px solid black;
+ overflow: hidden; 
+  
+}
+.zoom{
+ max-height:100%;
+  max-width:auto;
+  transition:1s ease-in-out; 
+
+  
+}
+.zoom:hover{
+ transform:scale(1.5);
+   animation-iteration-count: infinite;
+}
+/* cube-bazier*/
+#cubic-bezier {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+  transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+
+#cubic-bezier:hover {
+  width:900px;
+}
+/* these ate tooplips property*/
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+
+  
+}
+/* toolip right */
+.tooltip-right {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  position:relative;
+  left:200px;
+}
+
+.tooltip-right .tooltiptext-right {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -30px;
+  left: 105%;
+}
+
+.tooltip-right:hover .tooltiptext-right {
+  visibility: visible;
+}
+
+/* toolip left */
+.tooltip-left {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  position:relative;
+  left:200px;
+}
+
+.tooltip-left .tooltiptext-left {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -30px;
+  left:-180%;
+  margin-left:30px;
+}
+
+.tooltip-left:hover .tooltiptext-left {
+  visibility: visible;
+}
+
+/* toolip top */
+.tooltip-top {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+position:relative;
+left:200px;
+  
+}
+
+.tooltip-top .tooltiptext-top {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -100px;
+  left:-30px;
+ 
+}
+
+.tooltip-top:hover .tooltiptext-top {
+  visibility: visible;
+}
+
+/* toolip bottom */
+.tooltip-bottom {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+position:relative;
+left:200px;
+  
+}
+
+.tooltip-bottom .tooltiptext-bottom{
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+ left:-30px;
+}
+
+.tooltip-bottom:hover .tooltiptext-bottom {
+  visibility: visible;
+}
+/* toolips arrow*/
+.tooltip-arrow{
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip-arrow .tooltiptext-arrow {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip-arrow .tooltiptext-arrow::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+.tooltip-arrow:hover .tooltiptext-arrow{
+  visibility: visible;
+}
+/* toolips left arrow*/
+.tooltip-left-arrow{
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip-left-arrow .tooltiptext-left-arrow {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: -100px;
+  left: 50%;
+  margin-left: -60px;
+}
+/* these are same position but value change */
+
+.tooltip-left-arrow .tooltiptext-left-arrow::after {
+content: "";
+  position: absolute;
+  top: -35%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}/*
+content: "";
+position: absolute;
+bottom: 100%;
+left: 50%;
+margin-left: -5px;
+border-width: 5px;
+border-style: solid;
+border-color: transparent transparent black transparent;}
+*/
+.tooltip-left-arrow:hover .tooltiptext-left-arrow{
+  visibility:visible;
+}
+/* toolip fade */
+.tooltip-fade {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip-fade .tooltiptext-fade {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  
+  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip-fade:hover .tooltiptext-fade {
+  visibility: visible;
+  opacity: 1;
+}
+/* filter property*/
+.blur {filter: blur(4px);}
+.brightness {filter: brightness(250%);}
+.contrast {filter: contrast(180%);}
+.grayscale {filter: grayscale(100%);}
+.huerotate {filter: hue-rotate(180deg);}
+.invert {filter: invert(100%);}
+.opacity {filter: opacity(50%);}
+.saturate {filter: saturate(7);}
+.sepia {filter: sepia(100%);}
+.shadow {filter: drop-shadow(8px 8px 10px green);}
+/* hover style*/
+/* fade in overlay */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top:-28px;
+  bottom:0px;
+  left:0;
+  right:0;
+  height:100%;
+  width:100%;
+  opacity: 0;
+  transition:3s ease;
+  background-color: #008CBA;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/* second*/
+.container2 {
+  position: relative;
+  width: 50%;
+}
+
+.image2 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container2:hover .image2 {
+  opacity: 0.3;
+}
+
+.container2:hover .middle2{
+  opacity: 1;
+}
+.text2 {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+/* another */
+.container3 {
+  position: relative;
+  width: 50%;
+}
+
+.image3 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay3 {
+  position: absolute;
+  top:-28px;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+   transition: .5s ease;
+}
+
+.container3:hover .overlay3 {
+  bottom: -28px;
+  height: 100%;
+}
+.text3 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/* another*/
+.container4 {
+  position: relative;
+  width: 50%;
+}
+
+.image4 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay4 {
+  position: absolute;
+  bottom:-28px;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+   transition: .5s ease;
+}
+
+.container4:hover .overlay4 {
+  height:100%;
+
+}
+.text4 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/* another */
+.container5{
+  position: relative;
+  width: 50%;
+}
+
+.image5{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay5 {
+  position: absolute;
+  top:-28px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0%;
+  height: 100%;
+   transition: .5s ease;
+}
+
+.container5:hover .overlay5 {
+ width: 100%;
+}
+.text5 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/* another*/
+.container6 {
+  position: relative;
+  width: 50%;
+}
+
+.image6 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay6 {
+  position: absolute;
+  bottom:-28px;
+ 
+  right: -45px;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0%;
+  height: 100%;
+   transition: .5s ease;
+}
+
+.container6:hover .overlay6{
+  width:100%;
+  
+
+}
+.text6 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/* flip the images*/
+.flip:hover {
+  transform: scaleX(-1);
+}
+/* reflection*/
+.reflection {
+  -webkit-box-reflect: below;
+}
+
+
+/*another */
+.reflection-div{
+  height:900px;
+  width:900px;
+  border:2px solid black;
+  }
+  
+ .reflection-image{
+  object-position:5px 10%;
+    transform: scale(0.5);
+  -webkit-box-reflect: right 20px;
+ }
+ /* this is another box reflect*/
+ .image-reflection{
+  -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+/* !important*/
+/* path of any content*/
+#frameDiv {
+    width: 400px;
+    height: 170px;
+    margin: 20px;
+    position: relative;
+    border: solid black 1px;
+    background-color: rgb(205, 242, 205);
+  }
+
+  #boy{
+    position: absolute;
+    z-index: 1;
+    width: 70px;
+    filter:drop-shadow(0px 0px 2px black);
+    offset-anchor: right center;
+    offset: path('M 20 80 C 150 -20 250 180 350 10') 01px auto 20deg;
+    offset-distance: 33%;
+
+    animation: moveImg 4s 1s 3;
+    
+  }
+
+  #boy2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+
+  @keyframes moveImg {
+    100%  { offset-distance: 100%; }
+  }
+  .writing-mode{
+    writing-mode: vertical-lr;
+  }
+/* this is quotes change property*/
+#quotes1{
+  quotes: "'" "'";
+}
+
+#quotes2 {
+  quotes: "�" "�" "�" "�";
+}
+
+#quotes3{
+  quotes: "🌟" "🌟" "🌟" "";
+}
+.div-rotate{
+  rotate:30deg;
+ 
+}
+.user-selection{
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+.blend-mode{
+  height:900px;
+  width:900px;
+ background-image: url("https://i.postimg.cc/s2tn9gx3/images.jpg" alt="Pineapple");
+ background-image:url("https://i.postimg.cc/jqQTJ2qs/images-1.jpg");
+ background-repeat:no-repeat;
+ background-blend-mode:screen;
+ 
+}
+
+
+.circle-loader{
+  height:200px;
+  width:200px;
+  border: 10px solid skyblue;
+  border-radius:50%;
+  border-top-color: black;
+  border-left-color:black;
+  border-bottom-color:black;
+  animation:rotate 1s infinite;
+ 
+}
+@keyframes rotate{
+ 100%{
+   rotate:360deg
+ } 
+}
+/* css selectors  property*/
+
+/* parents child property*/
+div > p{
+  background-color: yellow;
+}
+/* add selector property*/
+
+div + p{
+  background-color: red;
+}
+/* link target selector property*/
+a[target]{
+  color:green;
+}
+/* link target value selector property*/
+a[target="_blank"] {
+  background-color: pink;
+}
+/* style according title pineapple*/
+[title~="pineapple"]{
+  filter:blur(50px);
+}
+/* guess word class multiple elements property*/
+[class|="top"] {
+  background: yellow;
+}
+/* div class text style property*/
+div[class^="test"] {
+  background: #ffff00;
+}
+/* without div*/
+[class^="poem"] {
+  background: #ffff00;
+}
+/* class with $ sign*/
+[class$="writter"] {
+  background: #ffff00;
+}
+/* class with star * sign */
+[class*="double"] {
+  background: #ffff00;
+}
+/* after and before.property*/
+#before::before{
+  content: "-ANKIT KOSTA-"
+}
+#after::after{
+  content:"-ANKIT KOSTA-";
+}
+/* enabled / disabled*/
+#input[type=text]:enabled{
+  border-radius: 40Px;
+}
+
+#input2[type=text]:disabled{
+  height:30px;
+}
+/* emply selector*/
+.paragrap:empty{
+  height:20px;
+  width:40px;
+  background-color: blue;
+  border-radius: 20px;
+}
+/* first child property*/
+.first-child:first-child {
+  background-color:brown;
+}
+/* last child*/
+#last-child:last-child{
+  background-color:purple;
+}
+/* first chold elements property*/
+#first-child-element:first-child i{
+background-color:red;
+}
+/* first Letter select*/
+#first-letter::first-letter{
+  color:red;
+  font-size:50px;
+}
+#first-line::first-line{
+  color:purple;
+  font-weight: bold;
+}
+#focus:focus{ background-color:orange;
+color:black;
+}
+
+/* in range input property*/
+#input-range:in-range{
+  border:2px solid yellow;
+}
+#input-range:out-of-range{
+  border:2px solid red;
+}
+/* invalid selector*/
+
+#invalid:invalid{
+  border:5px solid red;
+  outline: none;
+}
+#invalid:valid{
+  border:5px solid yellow;
+  outline:none;
+}
+/* marker selector is the bullets color */
+::marker{
+  color:#5B0EFF;
+}
+/* place holder sellecto style*/
+
+::placeholder{
+  color:red;
+  letter-spacing: 4px;
+  font-family: cursive;
+  font-weight:600%:
+  
+}
+/* read only selector style */
+input::read-only{
+  background-color:pink;
+}
+/*:root selector used for body background color*/
+/* selection selector style*/
+::selection{
+  background-color:yellow;
+}
+/* taget selector */
+:target{
+  color:blue;
+  background-color:black;
+}
+/* taget long form*/
+.tab div {
+  display: none;
+}
+
+.tab div:target {
+  display: block;
+}
+/* floating panel help with target selector*/
+@-webkit-keyframes example {
+  from {top:-100px;opacity: 0;}
+  to {top:0px;opacity:1;}
+}
+
+/* Add animation (Standard syntax) */
+@keyframes example {
+  from {top:-100px;opacity: 0;}
+  to {top:0px;opacity:1;}
+}
+/* The modal's background */
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+/* Display the modal when targeted */
+.modal:target {
+  display: table;
+  position: absolute;
+}
+
+/* The modal box */
+.modal-dialog {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* The modal's content */
+.modal-dialog .modal-content {
+  margin: auto;
+  background-color: #f3f3f3;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  border: 1px #777 solid;
+  text-align: justify;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  /* Add animation */
+  -webkit-animation-name: example; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 0.5s; /* Chrome, Safari, Opera */
+  animation-name: example;
+  animation-duration: 0.5s;
+}
+/* The button used to close the modal */
+.closebtn {
+  text-decoration: none;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.closebtn:hover,
+.closebtn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  padding: 2px 16px;
+}
+header {
+  background-color: #5cb85c;
+  font-size: 25px;
+  color: white;
+  width:100%;
+}
+
+footer {
+  background-color: #5cb85c;
+  font-size: 20px;
+  color: white;
+  width:100%;
+}
+/* attr for take down href value */
+a:after {content: " (" attr(href) ")";}
+/* font face property*/
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+#font-face {
+  font-family: myFirstFont;
+}
+/* image rendering*/
+.image {
+  height: 100px;
+  width: 100px;  
+  image-rendering: auto;
+}
+
+.image-crisp-edges {
+  image-rendering: -webkit-optimize-contrast; /* Chrome, Edge, Opera, and Safari */
+  image-rendering: crisp-edges;
+}
+
+.image-pixelated {
+  image-rendering: pixelated;
+}
+
+.image-smooth {
+  image-rendering: smooth;
+}
+
+.image-high-quality {
+  image-rendering: high-quality;
+}
+/* 
+/* :not() selector*/
+
+
+/*:not(p){
+  color:pink;
+}
+
+*/
